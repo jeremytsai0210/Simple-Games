@@ -16,23 +16,23 @@ export const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: "login",
+        path: "/login",
         element: <LoginFormPage />,
       },
       {
-        path: "signup",
+        path: "/signup",
         element: <SignupFormPage />,
       },
       {
-        path: "tic-tac-toe",
+        path: "/tic-tac-toe",
         element: <TicTacToe />,
       },
       {
-        path: "connect-four",
+        path: "/connect-four",
         element: <ConnectFour />,
       },
       {
-        path: "snake",
+        path: "/snake",
         element: <Snake />,
       },
     ],
