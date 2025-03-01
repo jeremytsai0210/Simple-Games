@@ -4,6 +4,8 @@ import SignupFormPage from '../components/SignupFormPage';
 import Layout from './Layout';
 import HomePage from '../components/HomePage';
 import TicTacToe from '../components/TicTacToe';
+import ConnectFour from '../components/ConnectFour';
+import Snake from '../components/Snake';
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ export const router = createBrowserRouter([
       {
         path: "tic-tac-toe",
         element: <TicTacToe />,
+      },
+      {
+        path: "connect-four",
+        element: <ConnectFour />,
+      },
+      {
+        path: "snake",
+        element: <Snake />,
       },
     ],
   },
