@@ -8,7 +8,7 @@
   .board-container {
     position: relative;
     display: inline-block;
-    padding-top: 30px; /* Space for the arrow */
+    padding-top: 30px;
   }
   
   .hover-arrow {
@@ -19,7 +19,7 @@
     color: #333;
     font-weight: bold;
     transition: left 0.1s ease-in-out;
-    pointer-events: none; /* Ensure the arrow doesn't interfere with mouse events */
+    pointer-events: none;
   }
   
   .board {

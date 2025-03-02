@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./TicTacToe.css";
+import "./TicTacToe.module.css";
 
 export default function TicTacToe() {
   const [board, setBoard] = useState(Array(9).fill(null));
